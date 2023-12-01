@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Eduor Next JS Documentation</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="left-side">
+            <div class="logo">
+                <a href="#">
+                    <img src="img/logo.png">
+                </a>
+            </div>
+
+            <div class="left-content">
+                <ul role="tablist">
+                    <li class="active"><a href="#one" data-toggle="tab">Welcome</a></li>
+                    <li><a href="#two" data-toggle="tab">Main File Structure</a></li>
+                    <li><a href="#install" data-toggle="tab">Deployment</a></li>
+                    <li><a href="#three" data-toggle="tab">Components Structure</a></li>
+                    <li><a href="#four" data-toggle="tab">CSS Structure</a></li>
+                    <li><a href="#five" data-toggle="tab">Context API</a></li>
+                    <li><a href="#six" data-toggle="tab">Mock Data</a></li>
+                    <li><a href="#seven" data-toggle="tab">Pages Structure</a></li> 
+                    <li><a href="#source" data-toggle="tab">Sources & Credits</a></li>
+                    <li><a href="#support" data-toggle="tab">Support</a></li>
+                </ul>
+            </div>
+
+            <div class="copyright">
+                <p>&copy; Copyright <a href="https://themeforest.net/user/reacttemplatebuilder">Eduor</a>
+                    <script>document.write(new Date().getFullYear())</script>.
+                </p>
+            </div>
+        </div>
+
+        <div class="right-side">
+            <div class="right-content">
+                <div id="one" class="content active fade in">
+                    <h1><span>Eduor</span> - Education Next JS Template</h1>
+                    <div class="created">
+                        <p>Created : 13 August 2023 <br>
+                            Last Update : 13 August 2023<br>
+                            By : <a href="https://themeforest.net/user/reacttemplatebuilder">React Template Builder</a><br>
+                            Email : azizurrahmanemon007@gmail.com<br>
+                            <br>
+                            Thank you for purchasing our Template. If you have any question, please feel free to contact
+                            us.
+                        </p>
+                    </div>
+                </div>
+
+                <div id="two" class="content fade">
+                    <h1>Main File Structure</h1>
+                    <p>
+                        All the file are well organized, its so easy to work with the template.
+                        <br>
+                        1. Unzip the mainFile.
+                        <br>
+                        You will find 5 folder and 6 other files.
+                        <br>
+                        In the component folder there are the components of the template that are used all around and from here the components can be modifed according to your need.
+                        <br>
+                        In the context folder there is the EduorContext.js file which contains all the logic for the template.
+                        <br>
+                        In the data folder there is Data.js file in which there is all mock data used in the template.
+                        <br>
+                        In the app folder there are all the pages for the template any folder created in this folder will become a page and take page.js as index of that directory.
+                        <br>
+                        In the public folder there are assets like css,font and images.
+                        <br>
+                        The rest of the files are .gitignore, jsconfig.json, next.config.js, package-lock.json, package.json and readme file. 
+                    </p>
+                </div>
+
+                <div id="install" class="content active fade">
+                    <h1>To deploy Eduor to Vercel</h1>
+                    <h3>You'll typically need to follow these general steps:</h3>
+                        <p>
+                            1. Create a Vercel Account:
+
+                            If you don't have a Vercel account, you'll need to create one at https://vercel.com/signup.
+                            <br>
+                            2. If yoy have a github account push the main file in a repository and link the github to your vercel account.
+                            <br>
+                            3. Navigate to Vercel overview:
+
+                           Click add new. Select project and if you have your github link you will see the repositories, select the repository of Eduor.
+                            <br>
+                            4. After importing the repository you will be redirected to deployment page here you can change the project name and many other.
+                            <br>
+                            5. After selecting a name for the project just click on deploy button. It will take some time and after it will be live and a url will be given which can modified later on.
+                            <br>
+                            6. If you are importing from github continous deployment is supported in Vercel. If you update the code in github it will auto update the live site.
+                            <br>
+                            For more deployment instruction you can follow this <a href="https://nextjs.org/learn/basics/deploying-nextjs-app/platform-details" target="_blank">Link</a>of official document.
+                            <div>
+                                <h3>Steps to install and start in local server</h3>
+                                <p>
+                                    1. Unzip the "main_file" and you can open commad prompt in the mainFile and use command "npm install" to install node modules.
+                                    <br>
+                                    2. After installing node modules you can type the command "npm run dev" to open the web app in local server.
+                                </p>
+                            </div>
+                        </p>
+                </div>
+
+                <div id="three" class="content fade">
+                    <h1>Components Structure</h1>
+                    <div>In the component folder it is cleanly organized for better use and reusabilty of the components. </div>
+                    <div>The components are mounted in the pages js file according to need</div>
+                    <div>There are some components which are used by passing down props which are easy to understand.</div>
+                    <img src="img/component.png" alt="">
+                </div>
+
+                <div id="four" class="content fade">
+                    <h1>CSS Structure</h1>
+                    <img src="img/css.png" alt="">
+                </div>
+
+                <div id="five" class="content fade">
+                    <h1>Context API</h1>
+                    <div>The EduorContext.js contains all the state management of the web app and the functions or states can be imported to any component using useEduorContext custom hook of react.</div>
+                    <div>The use of context api reduces the excess props drilling and the reduces multiple lines of codes to improve performance.</div>
+                    <div>The functions in context api are well documented for your better understanding.</div>
+                    <img src="img/context.png" alt="">
+                </div>
+
+                <div id="six" class="content fade">
+                    <h1>Mock Data</h1>
+                    <div>The data folder contains data.js file from which data is fetched using map method to reduce excess code</div>
+                    <img src="img/data.png" alt="">
+                </div>
+
+                <div id="seven" class="content fade">
+                    <h1>App Directory Structure</h1>
+                    <div>To define a route in the latest next js version you can read the docs for better understanding. In the root of app directory page.js acts as index page of the web app. And create a new route like '/about' we need to create a folder named about and create a page.js file in that folder which will act as index for the directory. The current next js is folder based routing which makes it easier for nested routing. </div>
+                    <img src="img/app.png" alt="">
+                </div>
+
+                <div id="source" class="content fade">
+                    <h1>Sources &amp; Credits</h1>
+                    <ul>
+                        <li><span>Fonts</span>
+                        <li><a href="https://fonts.google.com/specimen/Montserrat" target="_blank">Montserrat</a></li>
+                        <li><a href="https://fonts.google.com/specimen/Rubik?query=Rubik" target="_blank">Rubik</a></li>
+                         </li>
+                        </li><br>
+                        <li><span>Icon</span>
+                        <li><a href="https://fontawesome.com/">FontAwesome</a></li>
+                        </li><br>
+
+                        <li><span>CSS Framework</span>
+                        <li><a href="https://getbootstrap.com/" target="_blank">Bootstrap</a></li>
+                        <li><a href="https://react-bootstrap.netlify.app/" target="_blank">React Bootstrap</a></li>
+                        <li><a href="https://mui.com/" target="_blank">Material UI</a></li>
+                        </li><br>
+
+                        <li><span>React Libraries</span>
+                        <li><a href="https://react-slick.neostack.com/" target="_blank">React Slick</a></li>
+                        <li><a href="https://github.com/fkhadra/react-toastify#readme" target="_blank">React Toastify</a></li>
+                        <li><a href="https://sass-lang.com/" target="_blank">react-countup</a></li>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="support" class="content fade">
+                    <h1>Supports</h1>
+                    <p>Thank you for reading the documentaion. If you still have any question or any problem, please
+                        contact with us. We will give you best support.</p>
+                    <a href="https://themeforest.net/user/reacttemplatebuilder">React Template Builder</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
