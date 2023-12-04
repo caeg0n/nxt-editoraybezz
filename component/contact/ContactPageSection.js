@@ -9,13 +9,11 @@ const ContactPageSection = () => {
           <div className="col-xxl-8 col-xl-7 col-lg-6 wow fadeInLeft">
             <div className="tf__contact_form">
               <div className="tf__heading_area tf__heading_area_left mb_25">
-                <h5>OUR contact Us</h5>
-                <h2>Get Our Contact Now.</h2>
+                <h5>Nosso contato</h5>
+                <h2>Pegue nosso Contato Agora.</h2>
               </div>
               <p>
-                Promote your blog posts, case udie, and product ouncems with the
-                the branded videoscustomers coming back for services Makes best
-                effort.
+                Aqui estão algumas maneiras de promover suas postagens de blog, estudos de caso e anúncios de produtos com vídeos personalizados para manter os clientes voltando para os serviços.
               </p>
               <ContactForm />
             </div>
@@ -27,7 +25,7 @@ const ContactPageSection = () => {
                   <i className="fas fa-phone-alt"></i>
                 </div>
                 <div className="text">
-                  <h3>Call</h3>
+                  <h3>Ligue</h3>
                   <a href="callto:+880254615566">+880254615566</a>
                   <a href="callto:+826542556455">+826542556455</a>
                 </div>
@@ -37,7 +35,7 @@ const ContactPageSection = () => {
                   <i className="fas fa-phone-alt"></i>
                 </div>
                 <div className="text">
-                  <h3>mail</h3>
+                  <h3>e-mail</h3>
                   <a href="mailto:neta@eobi.com">neta@eobi.com</a>
                   <a href="mailto:coraty@bara.com">coraty@bara.com</a>
                 </div>
@@ -47,7 +45,7 @@ const ContactPageSection = () => {
                   <i className="fas fa-phone-alt"></i>
                 </div>
                 <div className="text">
-                  <h3>address</h3>
+                  <h3>endereço</h3>
                   <p>52, 25 rangpur,0123 Ratrba baraj,20</p>
                 </div>
               </div>
