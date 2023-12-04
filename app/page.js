@@ -14,8 +14,8 @@ import VideoSection from "@/component/video/VideoSection";
 import WorkSection from "@/component/work/WorkSection";
 
 export const metadata = {
-  title: "Eduor Home Page 1",
-  description: "Developed by Azizur Rahman",
+  title: "Editora Ybezz",
+  description: "Desenvolvido por Caerlos Eduardo",
 };
 
 export default function Home() {

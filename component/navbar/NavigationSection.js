@@ -19,38 +19,38 @@ const NavigationSection = ({ position, btnPosition, navRef }) => {
           </a>
           <ul className="tf__droap_menu">
             <li>
-              <SubNavlink href="/">home 1</SubNavlink>
+              <SubNavlink href="/">inicio</SubNavlink>
             </li>
             <li>
-              <SubNavlink href="/home-2">home 2</SubNavlink>
+              <SubNavlink href="/home-2">inicio 2</SubNavlink>
             </li>
             <li>
-              <SubNavlink href="/home-3">home 3</SubNavlink>
+              <SubNavlink href="/home-3">inicio 3</SubNavlink>
             </li>
           </ul>
         </li>
         <li className="nav-item">
-          <Navlink href="/about">about us</Navlink>
+          <Navlink href="/about">sobre nós</Navlink>
         </li>
         <li className="nav-item">
-          <Navlink href="/courses">courses</Navlink>
+          <Navlink href="/courses">cursos</Navlink>
         </li>
         <li className="nav-item">
           <Navlink href="/blog">blog</Navlink>
         </li>
         <li className="nav-item">
           <a className="nav-link">
-            pages <i className="fa fa-angle-down"></i>
+            paginas <i className="fa fa-angle-down"></i>
           </a>
           <ul className="tf__droap_menu">
             <li>
               <SubNavlink href="/courses/development-theory-learn">
-                courses details
+                detalhe dos cursos
               </SubNavlink>
             </li>
             <li>
               <SubNavlink href="/blog/learn-with-these-award-winning-best-blog-collage-courses">
-                blog details
+                detalhe do blog
               </SubNavlink>
             </li>
             <li>
@@ -58,48 +58,48 @@ const NavigationSection = ({ position, btnPosition, navRef }) => {
             </li>
             <li>
               <SubNavlink href="/events/outdoor-this-games">
-                event details
+                detalhes dos eventos
               </SubNavlink>
             </li>
             <li>
-              <SubNavlink href="/team">team</SubNavlink>
+              <SubNavlink href="/team">time</SubNavlink>
             </li>
             <li>
-              <SubNavlink href="/team/john-smith">team details </SubNavlink>
+              <SubNavlink href="/team/john-smith">detalhes do time </SubNavlink>
             </li>
             <li>
               <SubNavlink href="/faq">FAQs</SubNavlink>
             </li>
             <li>
-              <SubNavlink href="/sign-in">sign in</SubNavlink>
+              <SubNavlink href="/sign-in">entrar</SubNavlink>
             </li>
             <li>
-              <SubNavlink href="/sign-up">sign up</SubNavlink>
+              <SubNavlink href="/sign-up">registrar</SubNavlink>
             </li>
             <li>
               <SubNavlink href="/terms-condition">
-                terms and condition
+                termos e condições
               </SubNavlink>
             </li>
             <li>
-              <SubNavlink href="/privacy-policy">privacy policy</SubNavlink>
+              <SubNavlink href="/privacy-policy">politica de privacidade</SubNavlink>
             </li>
           </ul>
         </li>
         <li className="nav-item">
-          <Navlink href="/contact">contact</Navlink>
+          <Navlink href="/contact">contato</Navlink>
         </li>
         {btnPosition ? null : (
           <li className="nav-item">
             <a className="nav-link common_btn" href="#">
-              LEARN MORE
+              APREDA MAIS
             </a>
           </li>
         )}
       </ul>
       {btnPosition ? (
         <a className="common_btn_2 ms-auto" href="#">
-          learn more
+          aprenda mais
         </a>
       ) : null}
     </div>
