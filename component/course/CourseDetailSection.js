@@ -28,24 +28,24 @@ const CourseDetailSection = ({ courseData }) => {
                 </div>
                 <ul className="text d-flex flex-wrap align-items-center">
                   <li>
-                    <h4>author</h4>
+                    <h4>autor</h4>
                     <p>{courseData.instructor}</p>
                   </li>
                   <li>
-                    <h4>category</h4>
+                    <h4>categoria</h4>
                     <p>{courseData.category}</p>
                   </li>
                   <li>
-                    <h4>review</h4>
+                    <h4>avaliação</h4>
                     <p>{courseData.review} reviews</p>
                   </li>
                   <li>
-                    <h4>price</h4>
+                    <h4>preço</h4>
                     <p>{courseData.price}</p>
                   </li>
                   <li>
                     <a className="common_btn" href="#">
-                      enrole
+                      se increver
                     </a>
                   </li>
                 </ul>
@@ -69,7 +69,7 @@ const CourseDetailSection = ({ courseData }) => {
                 </form>
               </div>
               <div className="tf__sidebar_blog sidebar_item">
-                <h3>popular courses</h3>
+                <h3>cursos populares</h3>
                 <ul>
                   {courseDataArray.slice(0, 3).map((item) => (
                     <li key={item.id}>
@@ -91,30 +91,30 @@ const CourseDetailSection = ({ courseData }) => {
                 </ul>
               </div>
               <div className="tf__sidebar_category sidebar_item">
-                <h3>Categories</h3>
+                <h3>Categorias</h3>
                 <ul>
                   <li>
                     <a href="#">
                       {" "}
-                      Business <span>(08)</span>
+                      Negocios <span>(08)</span>
                     </a>
                   </li>
                   <li>
                     <a href="#">
                       {" "}
-                      Maintenance <span>(14)</span>
+                      Manutenção <span>(14)</span>
                     </a>
                   </li>
                   <li>
                     <a href="#">
                       {" "}
-                      Professional <span>(20)</span>
+                      Profissional <span>(20)</span>
                     </a>
                   </li>
                   <li>
                     <a href="#">
                       {" "}
-                      Technology<span>(29)</span>
+                      Tecnologia<span>(29)</span>
                     </a>
                   </li>
                   <li>
@@ -126,7 +126,7 @@ const CourseDetailSection = ({ courseData }) => {
                   <li>
                     <a href="#">
                       {" "}
-                      Innovation <span>(22)</span>
+                      Inovação <span>(22)</span>
                     </a>
                   </li>
                 </ul>
