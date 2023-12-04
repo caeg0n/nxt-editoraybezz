@@ -93,7 +93,7 @@ const CategorySection = () => {
           <div className="col-xl-6 col-md-8 col-lg-6 m-auto wow fadeInUp">
             <div className="tf__heading_area mb_15">
               <h5>NOSSAS CATEGORIAS DE CURSOS</h5>
-              <h2>Temos sucesso para categorias de estudantes criativos.</h2>
+              <h2>Temos categorias de estudantes criativos.</h2>
             </div>
           </div>
         </div>
@@ -115,7 +115,7 @@ const CategorySection = () => {
                 <i className="fa fa-book"></i>
               </div>
               <div className="tf__single_category_text">
-                <h3>Exclusivo de Livros</h3>
+                <h3>Livros Exclusivos</h3>
                 <p>Podemos fornecer um auxiliar em Londres.</p>
               </div>
             </div>
@@ -159,7 +159,7 @@ const CategorySection = () => {
                 <i className="fa fa-book"></i>
               </div>
               <div className="tf__single_category_text">
-                <h3>Homem Exclusivo</h3>
+                <h3>Professor Exclusivo</h3>
                 <p>Podemos fornecer um auxiliar em Londres.</p>
               </div>
             </div>

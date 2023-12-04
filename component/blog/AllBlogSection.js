@@ -15,8 +15,8 @@ const AllBlogSection = () => {
         <div className="row wow fadeInUp">
           <div className="col-xl-6 col-md-8 col-lg-6 m-auto">
             <div className="tf__heading_area mb_15">
-              <h5>LATEST NEWS & BLOG</h5>
-              <h2>Our latest Blog And News.</h2>
+              <h5>ULTIMAS NOTICIAS & BLOGS</h5>
+              <h2>Nossas ultimas Noticias e Blogs.</h2>
             </div>
           </div>
         </div>
@@ -43,7 +43,7 @@ const AllBlogSection = () => {
                   </Link>
                   <p>{item.desc}</p>
                   <Link className="read_btn" href={`/blog/${item.slug}`}>
-                    Read More <i className="fas fa-chevron-circle-right"></i>
+                    Leia Mais <i className="fas fa-chevron-circle-right"></i>
                   </Link>
                 </div>
               </div>
